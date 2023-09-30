@@ -1,4 +1,10 @@
-# MaximizeToWorkspace [Not actively maintained]
+# Maximize2Workspace (continued)
+
+When I realized that the original plugin wasn't bothering to check if it was still compatible with newer versions of Gnome, I was doing that for myself and eventually figured that I should share it with the rest of the community. It looks like the plugin _may_ already be compatible with Gnome v45, but I haven't confirmed that yet. Once I have tested that out, I will push this to Gnome Extensions.
+
+NOTE: I am testing on Debian Stable (v12/bookworm) and Testing (v13/Trixie).
+
+## Original Plugin's Introduction
 
 Coming from MacOS I got habituated to MacOS' style of window management when we maximize it. It allows for focussing on one thing at a time as the desktop environment gets out of your way. I wanted to use same thing in Gnome but found the suppport for it utterly lacking/non-existant. Based on attempts made by people earlier, I have tried to recreate a similar experience of maximizing minimizing full screening and closing windows as on MacOS. I would say it goes one step beyond that by remaining true to gnome's way of dealing with windows and allowing for using multi app workflows without degrading your experience. I believe this extension will work great with auto tiling enabled but I leave that to other extensions. 
 
@@ -14,7 +20,7 @@ Fork of https://github.com/rliang/gnome-shell-extension-maximize-to-workspace wi
 
 ***
 
-## What does this do?
+### What does this do?
 When a window is maximized this extension moves the window to the first empty workspace it can find. When it is unmaximized the window is brought back to the original workspace it was present in, if possible. Same is done when you enter full-screen or unfull-screen on you application. When you close the window you will be taken back to the workspace you opened the application in. If however you open a new app on the workspace with already maximized window and then tile the maximized window from maximized state to left or right, you won't be moved back to the original workspace, because the assumption here is that you want to work with the two applications simultaneously.
 
 It is suggested that you use it with some sort of trackpad gesture based window tiling and navigation of workspace. I use fusuma you can use that or anything that works for you like touchegg or an extension available for gnome like https://extensions.gnome.org/extension/4245/gesture-improvements/.
