@@ -2,7 +2,7 @@
 
 When I realized that the original plugin wasn't bothering to check if it was still compatible with newer versions of Gnome, I was doing that for myself and eventually figured that I should share it with the rest of the community. It looks like the plugin _may_ already be compatible with Gnome v45, but I haven't confirmed that yet. Once I have tested that out, I will push this to Gnome Extensions.
 
-NOTE: I am testing on Debian Stable (v12/bookworm) and Testing (v13/Trixie).
+NOTE: I am testing on Debian Stable (v12/Bookworm) and Testing (v13/Trixie).
 
 ## Original Plugin's Introduction
 
@@ -31,8 +31,8 @@ To use this, I would suggest you get it from https://extensions.gnome.org/extens
 
 To install run:
 ```
-git clone https://github.com/raonetwo/MaximizeToWorkspace.git ~/.local/share/gnome-shell/extensions/maximize-to-workspace@raonetwo.github.com
-gnome-extensions enable maximize-to-workspace@raonetwo.github.com
+git clone https://github.com/stevenjaycohen/Maximize2Workspace.git ~/.local/share/gnome-shell/extensions/maximize-2-workspace@stevenjaycohen.github.com
+gnome-extensions enable maximize-2-workspace@stevenjaycohen.github.com
 ```
 
 Then press Alt + F2 and in the dialogue box press "r" (no quotes) and enter to refresh the gnome session and verify that the extension has been enabled
